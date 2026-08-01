@@ -1,0 +1,23 @@
+Brainstorming ideas...
+
+
+
+What to prioritize
+- we must personalize the filtering system to the user, the best way to do is is based on their past history
+- compare from most to least specific (sender_user_id, group_id, conversation_type) and look at past actions
+- then, look at message contents (text, image, voice)
+- some message types belong exclusively to some actions
+    - urgent should be notify, scam and spam should be mute
+
+Design ideas
+- we are not designing a full notification system, just a sorting system, so there's a lot of things we don't need to consider
+- BUT, we doo need to consider scalability. Our sorting system should be fast enough to not inturrupt message delivery times
+- processing must be cheap. A few cents per message process is too much when a user will get dozens per day.
+- consider some sort of parallel message processing, if possible? Stateless message processor workers?
+- aggregate contents to something easily readable, feed that input to Claude API and prompt, output response (3 main steps)
+
+
+API Call ideas
+- one API call per message. That way we can consider everything at once
+- a user will recieve lots of messages. That API call must either be quick and cheap, or we do batch processing
+- speed: a few seconds at most per message
