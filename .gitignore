@@ -1,1 +1,13 @@
 code/.env
+
+# Secrets -- never commit
+.env
+
+# Local environment
+.venv/
+__pycache__/
+*.pyc
+
+# The chat transcript lives outside the repo (see AGENTS.md section 2) but guard
+# against a stray copy being committed.
+log.txt
