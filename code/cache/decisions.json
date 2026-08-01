@@ -977,6 +977,20 @@
     "message_id": "msg_084",
     "model": "claude-opus-5"
   },
+  "4df08b1586c90af5f4bba79061a9bc920b52a5a2dacd4b5e0d4af9c559192997": {
+    "decision": {
+      "action": "mute",
+      "analysis": "This message is from a verified business (Polaris School of Technology) but uses a mismatched domain (weurl.co instead of polaris.school), which is a hallmark impersonation risk and phishing signal. The sender has 7 user reports in 30 days and this specific user has no prior relationship with Polaris, only a distant history of opening two similar survey messages from the same sender in March. The domain mismatch combined with a request to click a link overrides any engagement history.",
+      "confidence": 0.88,
+      "evidence_message_ids": [
+        "message_0137"
+      ],
+      "message_type": "scam",
+      "reason": "Domain mismatch (weurl.co vs polaris.school) with a survey link is a phishing signal, outweighing user's prior openings of similar messages."
+    },
+    "message_id": "msg_041",
+    "model": "claude-haiku-4-5"
+  },
   "51f34193f87e190ad8377f873aa0f951443604d09728587e8a2af626ef34cfec": {
     "decision": {
       "action": "notify",
@@ -1037,6 +1051,20 @@
     },
     "message_id": "sample_msg_013",
     "model": "claude-haiku-4-5"
+  },
+  "570c110f03211093d82fc7fd7bea5e2fcb1be5c8ef4e649fd4638b66a901599d": {
+    "decision": {
+      "action": "mute",
+      "analysis": "The text is identical to prior Thrillophilia promotions this user opens, but the sender is using link.wame.pro instead of thrillophilia.com, and the attached poster is branded 'Happy Holidayers' with a different phone number and site entirely. Brand mismatch in both domain and creative, plus recent user reports against the account, outweighs the user's engagement history.",
+      "confidence": 0.78,
+      "evidence_message_ids": [
+        "message_0272"
+      ],
+      "message_type": "scam",
+      "reason": "Sender domain and poster branding both differ from the claimed Thrillophilia brand, indicating impersonation despite prior engagement."
+    },
+    "message_id": "msg_027",
+    "model": "claude-opus-5"
   },
   "575886a40aeef9ed9aa8891ca60356accf856fdcf09ddd044496684343c1a139": {
     "decision": {
@@ -1795,6 +1823,20 @@
     "message_id": "sample_msg_008",
     "model": "claude-haiku-4-5"
   },
+  "8d76e38d9f285e6676db1c4293c91a426ad50a0477b7c7bb0c51343a5794ba36": {
+    "decision": {
+      "action": "mute",
+      "analysis": "The sender is a verified travel business that this user explicitly opted out of promotions from on 2026-07-17. The incoming message is near-identical to message_0034 from 2026-06-12, which the user dismissed and then muted. Critically, the sender is using domain link.wame.pro instead of the official thrillophilia.com domain, which is a red flag for impersonation. The user has a strong pattern of dismissing and muting all promotional content across multiple businesses over the past 90 days, with a 46% dismissal rate on 8 notifications per day.",
+      "confidence": 0.89,
+      "evidence_message_ids": [
+        "message_0034"
+      ],
+      "message_type": "scam",
+      "reason": "Domain mismatch combined with explicit opt-out and repeated identical content the user has already muted signals impersonation risk."
+    },
+    "message_id": "msg_028",
+    "model": "claude-haiku-4-5"
+  },
   "8ecc5d44fc36f225c306d2b080f04f6b916b598f9f537a3adf00a858d7e5c4eb": {
     "decision": {
       "action": "notify",
@@ -1895,6 +1937,20 @@
       "reason": "Sender has a documented three-month pattern of identical phishing attempts that this user repeatedly reported and muted."
     },
     "message_id": "sample_msg_020",
+    "model": "claude-haiku-4-5"
+  },
+  "9fb56dd8e14dd06a776ea1f8932aa4fa6feac4b2acd9e7a1eded88e4dae53014": {
+    "decision": {
+      "action": "mute",
+      "analysis": "The sender is Thrillophilia, a verified travel business the user actively engages with — opened 6 of 7 recent messages and replied to 1. However, the critical safety signal is domain mismatch: the message uses link.wame.pro instead of the official thrillophilia.com domain, a hallmark of impersonation or phishing, despite the account's old age and history. This risk outweighs engagement history and opt-in status. The repeated identical Ladakh offer (exact match to message_0272 from 12 days ago, and near-duplicates on 2026-06-02 and 2026-05-10) adds fatigue and suggests spam-like repetition from a compromised or spoofed account.",
+      "confidence": 0.89,
+      "evidence_message_ids": [
+        "message_0272"
+      ],
+      "message_type": "scam",
+      "reason": "Domain mismatch (link.wame.pro vs thrillophilia.com) indicates impersonation despite sender history, overriding engagement."
+    },
+    "message_id": "msg_027",
     "model": "claude-haiku-4-5"
   },
   "a15c5a91ae55cf9448ae837016bc49227c4770a41f2cf606a17862c4470da43f": {
@@ -2040,6 +2096,20 @@
       "reason": "A familiar sender directly addresses this user with a time-bound plan requiring later confirmation, matching the user's prior engagement pattern with this sender."
     },
     "message_id": "msg_071",
+    "model": "claude-haiku-4-5"
+  },
+  "ad2097ed15cab3b79b636665dcc2258734e684227afd01fda2c2110331360e98": {
+    "decision": {
+      "action": "mute",
+      "analysis": "The sender domain is a critical safety mismatch: Thrillophilia's official domain is thrillophilia.com, but this message came through link.wame.pro, a classic impersonation signal. However, the message content is near-identical to message_0222 from April, which the user opened, replied to, and acted on within 2 minutes—suggesting they do receive legitimate pickup updates from this business. The voice note timestamp (7:38 AM) is outside quiet hours. The mismatch between official and actual domain, combined with 4 recent user reports against this sender account, elevates risk despite the familiar content pattern.",
+      "confidence": 0.86,
+      "evidence_message_ids": [
+        "message_0222"
+      ],
+      "message_type": "scam",
+      "reason": "Domain mismatch between official and actual sender is an impersonation signal that overrides familiarity with the content type."
+    },
+    "message_id": "msg_086",
     "model": "claude-haiku-4-5"
   },
   "ad66e1d7e758518c8df1c67ce8d7408bbb13059b0be28988a27bf888cb6dd30f": {
@@ -2331,6 +2401,20 @@
       "reason": "Sender's near-identical casual check-in was opened hours later, and this note states nothing is urgent."
     },
     "message_id": "sample_msg_041",
+    "model": "claude-opus-5"
+  },
+  "c96ef6a528609121b85194edd51c28b76144bed532a375c076e58f973544dae5": {
+    "decision": {
+      "action": "mute",
+      "analysis": "The sender claims to be Thrillophilia but transmits from link.wame.pro rather than thrillophilia.com, a flagged impersonation mismatch, and the account carries recent user reports. The content replicates almost word-for-word an earlier legitimate pickup-change message this user engaged with, which is a classic pretext-cloning pattern; risk outranks the positive engagement history.",
+      "confidence": 0.73,
+      "evidence_message_ids": [
+        "message_0222"
+      ],
+      "message_type": "scam",
+      "reason": "Sender domain does not match the official travel brand domain, and the text clones an earlier genuine pickup notice."
+    },
+    "message_id": "msg_086",
     "model": "claude-opus-5"
   },
   "caa22735d976dfbf495b14bdd50461d512af5554bd818617d8e42036bfbcbb15": {
@@ -2769,6 +2853,21 @@
     },
     "message_id": "sample_msg_052",
     "model": "claude-haiku-4-5"
+  },
+  "e6aa23f5407b126a730c42b8aed608770c6f1ea89d3498e6c9e8cd01ed033fa3": {
+    "decision": {
+      "action": "mute",
+      "analysis": "The sender claims to be Thrillophilia but uses link.wame.pro instead of thrillophilia.com, and the attached poster carries a different brand entirely (Happy Holidayers), signalling impersonation. The user also explicitly opted out of this business's promotions and has dismissed and muted identical copy repeatedly. Safety overrides everything else here.",
+      "confidence": 0.79,
+      "evidence_message_ids": [
+        "message_0034",
+        "message_0111"
+      ],
+      "message_type": "scam",
+      "reason": "Sender link domain does not match the claimed brand and the poster advertises a different company, indicating impersonation."
+    },
+    "message_id": "msg_028",
+    "model": "claude-opus-5"
   },
   "e86ed29f48a5082cac6c49b25788f49a32211e612d0d726a7970349f1aa324e6": {
     "decision": {

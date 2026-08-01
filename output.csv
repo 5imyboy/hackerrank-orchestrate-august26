@@ -18,14 +18,14 @@ msg_060,notify,urgent,Group admin posted a same-day form deadline; user has repl
 msg_004,notify,business_update,"Verified healthcare sender on its official domain, tied to an upcoming appointment the user consistently opens and replies to quickly.",0.78,message_0245
 msg_030,mute,promotion,Near-identical resale listing from the same sender was previously dismissed and muted in an already-muted marketplace group.,0.88,message_0115;message_0335
 msg_045,notify,urgent,Sender has pattern of reliable time-bound operational notices; message carries immediate deadline and requires user action to complete delivery.,0.88,message_0146;message_0031
-msg_052,mute,scam,"The sender used a domain that does not match the brand's official domain, indicating impersonation.",0.93,message_0208
+msg_052,mute,scam,"An unverified or newly registered sender used a domain that does not match the brand's official domain, indicating impersonation.",0.90,message_0208
 msg_009,digest,personal,"Sender has a history of sports threads this user engages with, but the muted group and low read rate suggest digest is appropriate here.",0.76,message_0074
 msg_071,notify,personal,"A familiar sender directly addresses this user with a time-bound plan requiring later confirmation, matching the user's prior engagement pattern with this sender.",0.82,message_0197;message_0198
 msg_016,mute,scam,Incoming message matches user's documented pattern of reported scams with identical request structure and sender deception.,0.94,message_0087;message_0024
 msg_065,digest,promotion,"Opted-in promotional message from a verified retailer the user regularly opens, but nothing time-critical to act on.",0.83,message_0261;message_0186
 msg_038,mute,forward,Sender has a clear pattern of forwarded chain-pressure messages that this user previously dismissed and muted.,0.88,message_0131
-msg_086,mute,scam,"The sender used a domain that does not match the brand's official domain, indicating impersonation.",0.93,message_0222
-msg_014,mute,promotion,"The user explicitly opted out of promotions from this business, so promotional content should be suppressed.",0.88,message_0017
+msg_086,mute,scam,"Sender domain does not match the official travel brand domain, and the text clones an earlier genuine pickup notice.",0.73,message_0222
+msg_014,mute,promotion,"The user explicitly opted out of promotions from this business, so promotional content should be suppressed.",0.90,message_0017
 msg_094,mute,promotion,"User has a strong, consistent pattern of dismissing and muting promotional offers from businesses with no prior relationship.",0.89,message_0356
 msg_029,digest,promotion,"Near-identical past listings from this seller were opened without urgency, so the resale offer belongs in a batched summary.",0.82,message_0113;message_0332
 msg_105,mute,forward,User muted identical health-tip forwards from this sender; pattern repeats with no actionable content or urgency.,0.91,message_0233
@@ -39,11 +39,11 @@ msg_032,digest,personal,"Sender has a pattern of academic requests this user eng
 msg_106,notify,event,A trusted sender is giving a direct same-day logistics update with a specific deadline that requires immediate action.,0.87,message_0234
 msg_006,notify,event,A trusted society admin issued a same-day operational update with a hard deadline requiring the user to act now.,0.89,message_0029
 msg_109,mute,scam,"User repeatedly dismissed and reported identical payment-QR messages from this sender, signaling distrust of this exact pattern.",0.82,message_0151;message_0152
-msg_108,mute,scam,"The sender used a domain that does not match the brand's official domain, indicating impersonation.",0.93,message_0094
-msg_019,mute,scam,"The sender used a domain that does not match the brand's official domain, indicating impersonation.",0.93,message_0094
+msg_108,mute,scam,"An unverified or newly registered sender used a domain that does not match the brand's official domain, indicating impersonation.",0.90,message_0094
+msg_019,mute,scam,"An unverified or newly registered sender used a domain that does not match the brand's official domain, indicating impersonation.",0.90,message_0094
 msg_088,mute,promotion,"Near-identical resale pitch from the same seller was previously unopened, dismissed and muted in a muted marketplace group.",0.86,message_0224;message_0115
 msg_056,notify,event,The sender has a strong pattern of rapid replies to appointment logistics; this message asks for same-day confirmation before 5:15 PM.,0.89,message_0226;message_0359
-msg_027,mute,scam,"The sender used a domain that does not match the brand's official domain, indicating impersonation.",0.93,message_0272
+msg_027,mute,scam,"Sender domain and poster branding both differ from the claimed Thrillophilia brand, indicating impersonation despite prior engagement.",0.78,message_0272
 msg_050,digest,business_update,"Known pharmacy sends a generic, non-specific health update with no deadline or action, matching a previously routine template.",0.77,message_0279;message_0155
 msg_083,digest,personal,"A near-identical earlier request from the same admin drew only a delayed response, and the ask is explicitly non-urgent.",0.83,message_0219
 msg_063,mute,scam,Sender has a documented history of phishing and payment scams that user reported; this message repeats the same deceptive pattern with QR code and false urgency.,0.94,message_0181;message_0182
@@ -52,7 +52,7 @@ msg_061,mute,forward,Sender has established pattern of forwarded chain content u
 msg_020,mute,scam,Sender has a history of dismissed promotions; the link-based account verification request mimics the phishing pattern the user previously reported.,0.87,message_0095;message_0334
 msg_017,mute,scam,Sender has prior history of sharing phishing and scam payment messages that this user reported; current message uses identical payment-pressure language.,0.89,message_0089;message_0090
 msg_058,mute,forward,User has muted this group and repeatedly dismissed identical forwards from this sender without opening.,0.89,message_0078
-msg_026,mute,scam,"The sender used a domain that does not match the brand's official domain, indicating impersonation.",0.93,message_0032
+msg_026,mute,scam,"An unverified or newly registered sender used a domain that does not match the brand's official domain, indicating impersonation.",0.90,message_0032
 msg_047,notify,event,A trusted building admin sent a same-day operational update with a specific deadline affecting the user's building access.,0.88,message_0149;message_0043
 msg_046,mute,scam,Sender requesting OTP with urgency is an exact repeat of past scam messages this user reported and muted.,0.93,message_0148;message_0147
 msg_042,notify,urgent,Trusted admin sent same-day operational alert requiring immediate user action to avoid vehicle tow.,0.89,message_0140
@@ -60,10 +60,10 @@ msg_079,mute,scam,"Message requests OTP and account verification through urgent 
 msg_098,notify,personal,Trusted sender is asking directly for an urgent decision on a medical appointment that the user has historically responded to within minutes.,0.91,message_0226;message_0168
 msg_037,notify,urgent,A trusted group admin sent a same-day operational update with a tight deadline requiring immediate user action.,0.91,message_0269
 msg_007,digest,event,A trusted group admin sent a non-urgent event deadline that the user can action at their convenience later.,0.85,message_0070
-msg_085,mute,scam,"The sender used a domain that does not match the brand's official domain, indicating impersonation.",0.93,message_0221
+msg_085,mute,scam,"An unverified or newly registered sender used a domain that does not match the brand's official domain, indicating impersonation.",0.90,message_0221
 msg_001,notify,urgent,Trusted admin sent a same-day operational update with immediate deadline affecting the user's utilities.,0.89,message_0057;message_0058
 msg_021,notify,payment,A trusted admin sent a same-day payment deadline with security guidance; the user has consistently acted on similar notices within minutes.,0.89,message_0029;message_0068
-msg_028,mute,scam,"The sender used a domain that does not match the brand's official domain, indicating impersonation.",0.93,message_0034
+msg_028,mute,scam,"Sender link domain does not match the claimed brand and the poster advertises a different company, indicating impersonation.",0.79,message_0034;message_0111
 msg_012,mute,forward,Sender has a documented pattern of repeated health-tip forwards the user actively mutes each time.,0.89,message_0247
 msg_064,mute,scam,Sender repeats card and OTP verification phishing with a deadline; user previously reported identical messages from them.,0.91,message_0087
 msg_103,notify,personal,User consistently replies within 2 minutes to this sender's direct pickup requests with time-bound deadlines.,0.89,message_0231;message_0382
@@ -83,8 +83,8 @@ msg_053,digest,forward,"Near-identical prior market notes from this sender were 
 msg_059,mute,scam,Sender has a documented pattern of phishing for account credentials; this message repeats the deceptive urgency and data harvesting approach.,0.92,message_0213;message_0056
 msg_024,mute,promotion,User opted out of promotions from this sender five days ago and has dismissed every similar message for fourteen months.,0.90,message_0257;message_0104
 msg_072,mute,scam,Message requests OTP verification via suspicious domain with artificial urgency; matches known phishing pattern the user has seen warned about before.,0.93,message_0086
-msg_036,mute,scam,"The sender used a domain that does not match the brand's official domain, indicating impersonation.",0.93,message_0128
-msg_076,mute,scam,"The sender used a domain that does not match the brand's official domain, indicating impersonation.",0.93,message_0208
+msg_036,mute,scam,"An unverified or newly registered sender used a domain that does not match the brand's official domain, indicating impersonation.",0.90,message_0128
+msg_076,mute,scam,"An unverified or newly registered sender used a domain that does not match the brand's official domain, indicating impersonation.",0.90,message_0208
 msg_055,notify,urgent,The sender has a history of time-critical requests this user acts on immediately; the message contains a hard deadline and direct request.,0.86,message_0166;message_0387
 msg_102,notify,urgent,Sender has established pattern of time-critical production rollbacks that this user always responds to within minutes.,0.91,message_0371
 msg_080,notify,urgent,Admin sends a time-sensitive operational update requiring immediate action; user has a pattern of opening and replying to similar notices from this sender within minutes.,0.89,message_0269
@@ -92,7 +92,7 @@ msg_093,digest,event,Legitimate FedEx delivery-window notice arriving during qui
 msg_034,mute,greeting,Sender has an established pattern of repeated forwards that user consistently dismisses and mutes without reading.,0.88,message_0078;message_0077
 msg_035,digest,promotion,Verified sender on its official domain with promotions allowed; user opened this identical pitch before but engaged slowly.,0.81,message_0281;message_0125
 msg_101,digest,personal,"Sender has strong engagement history with near-identical messages, but timing within quiet hours and lack of urgency override interrupt.",0.82,message_0370;message_0268
-msg_041,mute,scam,"The sender used a domain that does not match the brand's official domain, indicating impersonation.",0.93,message_0138
+msg_041,mute,scam,"Domain mismatch (weurl.co vs polaris.school) with a survey link is a phishing signal, outweighing user's prior openings of similar messages.",0.88,message_0137
 msg_011,mute,greeting,User has muted this group and dismissed every similar message from this sender for four months without exception.,0.89,message_0078;message_0077
 msg_110,mute,scam,Sender has repeated credential-harvesting phishing attempts the user reported; message replicates their pattern and requests login codes.,0.93,message_0238;message_0381
 msg_095,mute,scam,User has repeatedly dismissed and reported identical credential-harvesting messages from this sender over a two-month period.,0.94,message_0087;message_0183
